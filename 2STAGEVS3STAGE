@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main(){
+	int a,b,res,c=2;
+	printf("Enter the First Number : ");
+	scanf("%d",&a);
+	c++;
+	printf("Enter the Second Number : ");
+	scanf("%d",&b);
+	c++;
+	res = a * b;
+	c++;
+	printf("The Product is : %d\n",res);
+	printf("The number of clock cycles required is : %d\n",c);
+	
+	int d,e,resu,C=3;
+	printf("Enter the First Number : ");
+	scanf("%d",&d);
+	C++;
+	printf("Enter the Second Number : ");
+	scanf("%d",&e);
+	C++;
+	resu = d * e;
+	C++;
+	printf("The Product is : %d\n",resu);
+	printf("The number of clock cycles required is : %d\n",C);
+	return 0;
+}
