@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+	int a,b,res,c=4;
+	printf("Enter the First Number : ");
+	scanf("%d",&a);
+	c++;
+	printf("Enter the Second Number : ");
+	scanf("%d",&b);
+	c++;
+	res = a * b;
+	c++;
+	printf("The Product is : %d\n",res);
+	printf("The number of clock cycles required is : %d",c);
+	return 0;
+}
