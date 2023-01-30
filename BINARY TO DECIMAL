@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+	int b,d = 0,j = 1,rem;
+	printf("Enter the Binary Number : ");
+	scanf("%d",&b);
+	while(b != 0){
+		rem = b%10;
+		d = d + rem*j;
+		b = b/10;
+		j = j*2;
+	}
+	printf("The Decimal Equivalent is : %d",d);
+	return 0;
+}
