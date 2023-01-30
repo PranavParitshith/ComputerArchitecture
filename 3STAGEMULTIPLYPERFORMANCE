@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+	int a,b,res,c=3;
+	printf("Enter the First Number : ");
+	scanf("%d",&a);
+	c++;
+	printf("Enter the Second Number : ");
+	scanf("%d",&b);
+	c++;
+	res = a * b;
+	c++;
+	printf("The Product is : %d\n",res);
+	printf("The number of clock cycles required is : %d\n",c);
+	printf("The Number of instructions is 2\n");
+	printf("The CPU PERFORMANCE IS : %f\n",2/c);
+	return 0;
+}
