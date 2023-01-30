@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+	int d,b[100],i;
+	printf("Enter the Decimal Number to be converted : ");
+	scanf("%d",&d);
+	for(i = 0; d > 0;i++){
+		b[i] = d%2;
+		d = d/2;
+	}
+	printf("The Binary Equivalent of the decimal number is : ");
+	for( i = i - 1;i >= 0 ;i--){
+		printf("%d",b[i]);
+	}
+	return 0;
+}
